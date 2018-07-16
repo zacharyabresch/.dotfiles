@@ -32,8 +32,8 @@ alias ...='cd ../../'
 alias la='l -al'
 alias ag='ag --path-to-ignore ~/.ag_ignore'
 alias lach='la -ch'
-alias sourrc='source ~/.bashrc'
-alias sublrc='source ~/.bashrc'
+alias reload='source ~/.bashrc'
+alias editprofile='subl ~/.bashrc'
 ## Git
 alias g='git'
 alias ga='g add .'
@@ -59,6 +59,13 @@ alias gcqa='gco qa'
 alias greb='g rebase'
 alias grib='greb -i'
 alias gpla='gpl --all'
+## NPM
+alias ni="npm install"
+alias nu="npm uninstall"
+alias nup="npm update"
+alias nri="rm -r node_modules && npm install"
+## Applications
+alias chrome="open -a ~/Applications/Google\ Chrome.app"
 
 export TZ=UTC
 
