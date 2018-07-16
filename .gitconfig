@@ -1,0 +1,28 @@
+[user]
+  name = Zachary Abresch
+  email = zachary.abresch@gmail.com
+
+[core]
+  editor = subl -n -w
+  ignorecase = false
+
+[push]
+  default = current
+
+[color]
+  ui = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[diff "nodiff"]
+  command = /usr/bin/true
