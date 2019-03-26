@@ -3,7 +3,7 @@
   email = zachary.abresch@gmail.com
 
 [core]
-  editor = subl -n -w
+  editor = code --wait
   ignorecase = false
 
 [push]
@@ -24,5 +24,9 @@
   added = yellow
   changed = green
   untracked = cyan
+[diff]
+  tool = default-difftool
+[difftool "default-difftool"]
+  cmd = code --wait --diff $LOCAL $REMOTE
 [diff "nodiff"]
   command = /usr/bin/true
